@@ -5,4 +5,4 @@ TENER EN CUENTA: que debe estar corriendo el servirdor de apache y a su vez de M
 
 .-La importacion de la base de datos se realiza en el apartado grafico a su vez debe crear una base de datos con el nombre 'favoritos' paso seguido en la casilla exportar seleccionar el archivo con extension .sql una vez exportada ejecutar http://localhost/favoritos/index.php
 
-TENER EN CUENTA: para ejectura el app debe ubicarse en la ruta de acceso en donde instalo Xampp y Wampp y buscar la carpeta C:\CarpetaDondeInstaloXampp\htdocs alli instalar la Carpeta favoritos cambiar nombre si al bajarla de Git cambia el fichero debe llamarse 'favoritos' que es la que contiene todos los modulos de la aplicacion.
+TENER EN CUENTA: para ejectura el app debe ubicarse en la ruta de acceso en donde instalo Xampp y buscar la carpeta C:\CarpetaDondeInstaloXampp\htdocs alli instalar la Carpeta favoritos cambiar nombre si al bajarla de Git cambia el fichero debe llamarse 'favoritos' que es la que contiene todos los modulos de la aplicacion.
