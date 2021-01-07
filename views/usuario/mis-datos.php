@@ -1,3 +1,4 @@
+<?php require_once '../../config/redireccion.php'; ?>
 <?php require_once '../layout/header.php'; ?>
 <?php require_once '../layout/lateral.php'; ?>
 
