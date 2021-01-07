@@ -4,7 +4,7 @@
     <!-- CAJA PRINCIPAL -->
     <div id="principal">
 
-        <h1>Ultimos Enlaces Guardados</h1>
+        <h1>Ultimos Enlaces Guardados a Favoritos</h1>
 
         <?php
         $urls = conseguirUrls($db, true);
