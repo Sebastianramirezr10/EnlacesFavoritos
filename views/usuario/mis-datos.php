@@ -16,7 +16,7 @@
         </div>
     <?php endif; ?>
 
-    <form action="http://localhost/favoritos/models/usuario/actualizar-usuario.php" method="POST">
+    <form action="http://localhost/favoritos/controlador/usuario/actualizar-usuario.php" method="POST">
         <label for="nombre">Nombre</label>
         <input type="text" name="nombre" value="<?= $_SESSION['usuario']['nombre']; ?>" />
         <?php echo isset($_SESSION['errores']) ? mostrarError($_SESSION['errores'], 'nombre') : ''; ?>

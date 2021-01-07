@@ -1,6 +1,6 @@
 <?php require_once '../../config/redireccion.php'; ?>
 <?php require_once '../../config/conexion.php'; ?>
-<?php require_once '../../controlador/helpers/helpers.php'; ?>
+<?php require_once '../../models/helpers/helpers.php'; ?>
 <?php
 $url_actual = conseguirUrl($db, $_GET['id']);
 
@@ -19,7 +19,7 @@ if (!isset($url_actual['id'])) {
         Edita tu entrada <?= $url_actual['titulo'] ?>
     </p>
     <br />
-    <form action="../../models/enlaces/guardar-enlace.php?editar=<?= $url_actual['id'] ?>" method="POST">
+    <form action="../../controlador/enlaces/guardar-enlace.php?editar=<?= $url_actual['id'] ?>" method="POST">
         <label for="titulo">Titulo:</label>
         <input type="text" name="titulo" value="<?= $url_actual['titulo'] ?>" />
         <?php echo isset($_SESSION['errores_url']) ? mostrarError($_SESSION['errores_url'], 'titulo') : ''; ?>

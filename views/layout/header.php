@@ -1,4 +1,4 @@
-<?php include_once 'C:\Desarollo_Xampp\htdocs\favoritos\controlador\helpers\helpers.php'; ?>
+<?php include_once 'C:\Desarollo_Xampp\htdocs\favoritos\models\helpers\helpers.php'; ?>
 <?php include_once 'C:\Desarollo_Xampp\htdocs\favoritos\config\conexion.php'; ?>
 <!DOCTYPE html>
 <html lang="es">

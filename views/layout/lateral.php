@@ -17,7 +17,7 @@
             <a href="http://localhost/favoritos/views/urls/agregar-urls.php" class="boton boton-verde">Agrega una Url</a>
             <a href="http://localhost/favoritos/views/categorias/crear-categoria.php" class="boton">Crear categoria</a>
             <a href="http://localhost/favoritos/views/usuario/mis-datos.php" class="boton boton-naranja">Mis datos</a>
-            <a href="http://localhost/favoritos/models/usuario/cerrar.php" class="boton boton-rojo">Cerrar sesión</a>
+            <a href="http://localhost/favoritos/controlador/usuario/cerrar.php" class="boton boton-rojo">Cerrar sesión</a>
         </div>
     <?php endif; ?>
 
@@ -32,7 +32,7 @@
                 </div>
             <?php endif; ?>
 
-            <form action="http://localhost/favoritos/models/usuario/login.php" method="POST">
+            <form action="http://localhost/favoritos/controlador/usuario/login.php" method="POST">
                 <label for="email">Email</label>
                 <input type="email" name="email" />
 

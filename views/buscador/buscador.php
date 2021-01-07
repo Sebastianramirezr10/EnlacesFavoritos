@@ -36,4 +36,4 @@ if (!isset($_POST['busqueda'])) {
 </div>
 <!--fin principal-->
 
-<?php require_once 'includes/pie.php'; ?>
+<?php require_once '../layout/footer.php'; ?>

@@ -1,5 +1,5 @@
 <?php require_once '../../config/conexion.php'; ?>
-<?php require_once '../../controlador/helpers/helpers.php'; ?>
+<?php require_once '../../models/helpers/helpers.php'; ?>
 <?php
 $url_actual = conseguirUrl($db, $_GET['id']);
 
@@ -26,7 +26,7 @@ $url_actual = conseguirUrl($db, $_GET['id']);
     <?php if (isset($_SESSION["usuario"]) && $_SESSION['usuario']['id'] == $url_actual['usuario_id']) : ?>
         <br />
         <a href="http://localhost/favoritos/views/urls/editar-enlace.php?id=<?= $url_actual['id'] ?>" class="boton boton-verde">Editar entrada</a>
-        <a href="http://localhost/favoritos/models/enlaces/borrar-enlace.php?id=<?= $url_actual['id'] ?>" class="boton">Eliminar entrada</a>
+        <a href="http://localhost/favoritos/controlador/enlaces/borrar-enlace.php?id=<?= $url_actual['id'] ?>" class="boton">Eliminar entrada</a>
     <?php endif; ?>
 
 </div>

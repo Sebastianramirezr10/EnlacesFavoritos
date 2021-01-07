@@ -10,7 +10,7 @@
         usarlas al crear sus entradas.
     </p>
     <br />
-    <form action="../../models/categoriasG/guardar-categorias.php" method="POST">
+    <form action="../../controlador/categoriasG/guardar-categorias.php" method="POST">
         <label for="nombre">Nombre de la categoría:</label>
         <input type="text" name="nombre" />
 
