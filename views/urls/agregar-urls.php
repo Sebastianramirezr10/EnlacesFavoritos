@@ -10,7 +10,7 @@
         acceder y disfrutar de la funcionalidad.
     </p>
     <br />
-    <form action="../../controlador/url/agregar-url.php" method="POST">
+    <form action="../../models/url/agregar-url.php" method="POST">
         <label for="titulo">Titulo:</label>
         <input type="text" name="titulo" />
         <?php echo isset($_SESSION['errores_url']) ? mostrarError($_SESSION['errores_url'], 'titulo') : ''; ?>

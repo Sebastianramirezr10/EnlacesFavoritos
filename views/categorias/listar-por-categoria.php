@@ -1,5 +1,5 @@
 <?php require_once '../../config/conexion.php'; ?>
-<?php require_once '../../models/helpers/helpers.php'; ?>
+<?php require_once '../../controlador/helpers/helpers.php'; ?>
 <?php
 $categoria_actual = conseguirCategoria($db, $_GET['id']);
 
